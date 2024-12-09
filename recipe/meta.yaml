@@ -1,13 +1,13 @@
 {% set name = "scmorph" %}
-{% set version = "0.1.0" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scmorph-{{ version }}.tar.gz
-  sha256: a7f7255a9ce065fee2ff6e1d1a40c261f1ae6baf5ea6a951e012d66f4dd07895
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scmorph-{{ version }}.tar.gz
+  sha256: a913568723642d5f37540c8c3b1869b53934ebda174b44f4d4ab3abd79094905
 
 build:
   noarch: python
