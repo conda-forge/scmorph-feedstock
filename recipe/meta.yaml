@@ -1,5 +1,5 @@
 {% set name = "scmorph" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/scmorph-{{ version }}.tar.gz
-  sha256: a913568723642d5f37540c8c3b1869b53934ebda174b44f4d4ab3abd79094905
+  sha256: 15e7cf581234583a86c3c51def91587c681600ad126e16ffc356b9405b27c368
 
 build:
   noarch: python
@@ -50,8 +50,8 @@ test:
 
 about:
   summary: Single-cell morphological analysis
-  home: https://github.com/jeskowagner/scmorph
-  dev_url: https://github.com/jeskowagner/scmorph
+  home: https://github.com/edbiomedai/scmorph
+  dev_url: https://github.com/edbiomedai/scmorph
   license: MIT
   license_file: LICENSE
 

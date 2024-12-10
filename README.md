@@ -3,13 +3,13 @@ About scmorph-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scmorph-feedstock/blob/main/LICENSE.txt)
 
-
+Home: https://github.com/edbiomedai/scmorph
 
 Package license: MIT
 
 Summary: Single-cell morphological analysis
 
-Development: https://github.com/jeskowagner/scmorph
+Development: https://github.com/edbiomedai/scmorph
 
 Current build status
 ====================
