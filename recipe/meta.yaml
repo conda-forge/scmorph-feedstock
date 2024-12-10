@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -50,8 +50,8 @@ test:
 
 about:
   summary: Single-cell morphological analysis
-  home: https://github.com/jeskowagner/scmorph
-  dev_url: https://github.com/jeskowagner/scmorph
+  home: https://github.com/edbiomedai/scmorph
+  dev_url: https://github.com/edbiomedai/scmorph
   license: MIT
   license_file: LICENSE
 
